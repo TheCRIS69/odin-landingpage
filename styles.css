@@ -90,7 +90,7 @@
 
 .albums-section {
     background-color: rgb(214, 214, 214);
-    height: 450px;
+    height: fit-content;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -100,12 +100,14 @@
     font-size: 36px;
     color: #1F2937;
     margin: 25px;
+    text-align: center;
 }
 
 .albums {
     display: flex;
     gap: 35px;
-    margin: 25px;
+    margin: 30px;
+    flex-wrap: wrap;
 }
 
 
