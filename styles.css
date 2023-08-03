@@ -85,3 +85,37 @@
     flex-basis: 400px;
 }
 
+/* ALBUMS SECTION */
+
+
+.albums-section {
+    background-color: rgb(214, 214, 214);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.albums-heading {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 25px;
+}
+
+.albums {
+    display: flex;
+    gap: 35px;
+    margin: 25px;
+}
+
+
+.albums img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3382F6;
+    border-radius: 25px;
+}
+.albums p {
+    text-align: center;
+    font-weight: bold;
+}
