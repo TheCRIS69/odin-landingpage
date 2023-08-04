@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -18,7 +18,7 @@
     color: #F9FAF8;
     font-weight: bold;
     cursor: pointer;
-    flex: 0 0 50%;
+    flex-basis: 50%;
 }
 
 .header-links {
@@ -42,14 +42,15 @@
 
 .first-section {
     background-color: #1F2937;
-    height: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
 }
 
 .description {
-    flex-basis: 400px;
+    padding: 25px;
 }
 
 .description h1 {
@@ -79,10 +80,10 @@
 }
 
 .first-section img {
+    width: 300px;
     height: 300px;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 25px;
-    flex-basis: 400px;
 }
 
 /* ALBUMS SECTION */
@@ -90,24 +91,25 @@
 
 .albums-section {
     background-color: rgb(214, 214, 214);
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding: 25px;
 }
 
 .albums-heading {
     font-size: 36px;
     color: #1F2937;
-    margin: 25px;
     text-align: center;
 }
 
 .albums {
     display: flex;
-    gap: 35px;
-    margin: 30px;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 33px;
+    margin: 25px;
+}
+.albums p {
+    text-align: center;
+    font-weight: bold;
 }
 
 .albums img {
@@ -118,11 +120,5 @@
 }
 
 .albums img:hover {
-    border: 3px solid #0043a8;
-}
-.albums p {
-    text-align: center;
-    font-weight: bold;
-    width: 150px;
-    padding: 5px;
+    border: 4px solid #0043a8;
 }
